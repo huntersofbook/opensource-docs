@@ -15,23 +15,23 @@ export default defineAppConfig({
       branch: 'main',
       repo: 'opensource-docs',
       owner: 'huntersofbook',
-      edit: true
+      edit: true,
     },
     aside: {
       level: 0,
       collapsed: false,
-      exclude: []
+      exclude: [],
     },
     main: {
       padded: true,
-      fluid: true
+      fluid: true,
     },
     header: {
       title: 'huntersofbook',
       logo: false,
       showLinkIcon: true,
       exclude: [],
-      fluid: true
+      fluid: true,
     },
     cover: {
       src: '/cover.jpg',
@@ -41,9 +41,9 @@ export default defineAppConfig({
       iconLinks: [
         {
           href: 'https://nuxt.com',
-          icon: 'simple-icons:nuxtdotjs'
-        }
-      ]
-    }
-  }
+          icon: 'simple-icons:nuxtdotjs',
+        },
+      ],
+    },
+  },
 })
